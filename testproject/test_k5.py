@@ -29,6 +29,7 @@ chb_mar_num = driver.find_elements_by_xpath("//ol[@id='numbers-list']//li[@class
 print(len(chb_mar_num))
 
 play_button = driver.find_element_by_id('spin')
+play_init =  driver.find_element_by_id('init')
 
 bingo_text = driver.find_elements_by_xpath("//ul[@id='messages']/li")
 
