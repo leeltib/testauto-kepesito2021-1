@@ -52,5 +52,8 @@ a megoldáshoz egy végtelen ciklusban nyomogattam volna a gombot, amíg a "Bing
 Majd kiolvastam volna a megjelőlt számokat egy listába (chb_mar_num) , és összehasonlítottam volna a táblázat számait tartalmazó listával.
 """
 
+# tc03 teszt: Új játékot tudunk indítani:
+def test_tc03():
+    play_init.click()
 
 #test_tc01()
